@@ -1,0 +1,92 @@
+/* Typography */
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5efe6; /* soft beige */
+    color: #4e3b31; /* warm brown text */
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #4a3426; /* deep brown */
+}
+
+/* Grid Layout */
+.container {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 30px;
+}
+
+/* Box styling */
+.box {
+    background: #fffaf4; /* creamy off-white */
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(90, 64, 50, 0.15); /* warm brown shadow */
+    border: 1px solid #e9d8c5;
+}
+
+/* Candidate photo responsive */
+.candidate-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    border: 3px solid #e0cbb5;
+    margin-bottom: 12px;
+}
+
+/* Buttons */
+.btn {
+    background: #8b5e34; /* rich caramel brown */
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #6f4626; /* darker warm brown */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #c8b3a0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #fdf9f4;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8b5e34;
+    box-shadow: 0 0 4px rgba(139, 94, 52, 0.4);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #5a4336;
+}
+
+footer a {
+    color: #8b5e34;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
